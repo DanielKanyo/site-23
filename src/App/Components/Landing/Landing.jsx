@@ -1,4 +1,5 @@
 import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
 import { SOCIAL } from '../../Static/Constants/social';
 
 import './Landing.css';
@@ -13,6 +14,10 @@ const Landing = () => {
                 <div className='role'>
                     FULL STACK_UX
                 </div>
+            </div>
+            <div className='language-selector-container'>
+                <Button variant='text'>ENG</Button>
+                <Button variant='text'>HUN</Button>
             </div>
             <div className='social-and-title-container'>
                 <div className='title'>

@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .landing .social-and-title-container .social {
@@ -59,4 +59,21 @@
     font-size: 20px;
     z-index: 2;
     margin-top: 10px;
+}
+
+.landing .language-selector-container {
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.landing .language-selector-container > button {
+    margin: 0 5px;
+    color: rgb(255, 255, 255, 0.4);
+}
+
+.landing .language-selector-container > button:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgb(255, 255, 255, 1);
 }
