@@ -1,0 +1,18 @@
+@font-face {
+    font-family: BasementGrotesque;
+    src: url("App/Static/Fonts/BasementGrotesque-Black_v1.202.otf")
+        format("opentype");
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-image: linear-gradient(
+        to right top,
+        #0d0d0d,
+        #161616,
+        #1d1d1d,
+        #242424,
+        #2c2c2c
+    );
+}

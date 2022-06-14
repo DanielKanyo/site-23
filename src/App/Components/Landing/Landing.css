@@ -1,0 +1,62 @@
+.landing {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.landing .name-and-role-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+    font-family: BasementGrotesque;
+}
+
+.landing .name {
+    font-size: 100px;
+}
+
+.landing .role {
+    font-size: 32px;
+    color: black;
+}
+
+.landing .social-and-title-container {
+    position: absolute;
+    bottom: 0;
+    border-right: 1px solid transparent;
+    padding: 32px;
+    height: calc(100vh - 64px);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.landing .social-and-title-container .social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.landing .social-and-title-container .social-icon {
+    color: white;
+    opacity: 0.4;
+    margin: 6px 0;
+}
+
+.landing .social-and-title-container .social-icon:hover {
+    opacity: 1;
+}
+
+.landing .social-and-title-container .title {
+    color: white;
+    font-family: BasementGrotesque;
+    font-size: 20px;
+    z-index: 2;
+    margin-top: 10px;
+}
