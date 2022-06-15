@@ -61,23 +61,6 @@
     margin-top: 10px;
 }
 
-.landing .language-selector-container {
-    display: flex;
-    position: absolute;
-    bottom: 40px;
-    right: 100px;
-}
-
-.landing .language-selector-container > button {
-    margin: 0 5px;
-    color: rgb(255, 255, 255, 0.4);
-}
-
-.landing .language-selector-container > button:hover {
-    background-color: rgba(0, 0, 0, 0.04);
-    color: rgb(255, 255, 255, 1);
-}
-
 .landing .img {
     width: 100%;
     height: 100vh;
@@ -89,4 +72,40 @@
     background-size: cover;
     opacity: 0.18;
     z-index: 0;
+}
+
+.landing .welcome-msg {
+    position: absolute;
+    right: 250px;
+    bottom: 150px;
+    max-width: 255px;
+    z-index: 5;
+    text-align: right;
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.landing .welcome-title {
+    font-size: 19px;
+}
+
+.landing .welcome-text {
+    opacity: 0.6;
+    font-style: italic;
+    margin: 28px 0;
+}
+
+.landing .welcome-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing .welcome-btn button {
+    color: #03e8fc;
+    border-color: #03e8fc;
+    pointer-events: all;
+}
+
+.landing .welcome-btn button:hover {
+    background-color: rgba(0, 0, 0, 0.04);
 }
