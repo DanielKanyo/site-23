@@ -1,7 +1,6 @@
 @font-face {
     font-family: BasementGrotesque;
-    src: url("App/Static/Fonts/BasementGrotesque-Black_v1.202.otf")
-        format("opentype");
+    src: url('App/Static/Fonts/BasementGrotesque-Black_v1.202.otf') format('opentype');
 }
 
 body {

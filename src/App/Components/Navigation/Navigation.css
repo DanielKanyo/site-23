@@ -1,0 +1,17 @@
+.navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    padding: 35px;
+}
+
+.navigation button {
+    margin: 0 35px;
+    color: white;
+    opacity: 0.6;
+}
+
+.navigation button:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}

@@ -103,7 +103,6 @@
 .landing .welcome-btn button {
     color: #03e8fc;
     border-color: #03e8fc;
-    pointer-events: all;
 }
 
 .landing .welcome-btn button:hover {
