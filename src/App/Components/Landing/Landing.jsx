@@ -7,6 +7,7 @@ import './Landing.css';
 const Landing = () => {
     return (
         <div className='landing'>
+            <div className='img'></div>
             <div className='name-and-role-container'>
                 <div className='name'>
                     danielkanyo
