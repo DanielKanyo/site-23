@@ -3,6 +3,10 @@
     src: url('App/Static/Fonts/BasementGrotesque-Black_v1.202.otf') format('opentype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     position: relative;

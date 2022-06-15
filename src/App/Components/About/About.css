@@ -1,0 +1,28 @@
+.about {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding: 180px 0;
+    display: flex;
+}
+
+.about .profile-img {
+    min-width: 300px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-image: url('../../Static/Images/levi-meir-clancy-h2UcC6lXlJs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+}
+
+.about .about-text {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    margin: 120px 120px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    position: relative;
+}

@@ -13,7 +13,7 @@ const Landing = () => {
                     danielkanyo
                 </div>
                 <div className='role'>
-                    FULL STACK_UX
+                    FULL STACK | UX
                 </div>
             </div>
             <div className='social-and-title-container'>

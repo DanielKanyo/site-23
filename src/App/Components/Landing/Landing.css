@@ -20,7 +20,7 @@
 }
 
 .landing .role {
-    font-size: 32px;
+    font-size: 20px;
     color: black;
 }
 
@@ -83,8 +83,6 @@
     text-align: right;
     color: white;
     font-family: 'Roboto','Helvetica','Arial',sans-serif;
-    border-right: 1px solid rgb(255, 255, 255, 0.4);
-    padding-right: 50px;
 }
 
 .landing .welcome-title {
@@ -105,6 +103,7 @@
 .landing .welcome-btn button {
     color: #03e8fc;
     border-color: #03e8fc;
+    border-radius: 0px;
 }
 
 .landing .welcome-btn button:hover {
