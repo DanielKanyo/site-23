@@ -46,6 +46,10 @@ const Landing = () => {
                     <Button variant='outlined'>Contact me</Button>
                 </div>
             </div>
+            <div className='scroll'>
+                <div className='text'>Scroll</div>
+                <div className='line'></div>
+            </div>
         </div>
     );
 }

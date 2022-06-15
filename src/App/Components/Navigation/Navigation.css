@@ -14,4 +14,5 @@
 
 .navigation button:hover {
     background-color: rgba(0, 0, 0, 0.04);
+    opacity: 1;
 }

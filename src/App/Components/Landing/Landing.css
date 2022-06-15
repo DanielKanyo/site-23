@@ -76,13 +76,15 @@
 
 .landing .welcome-msg {
     position: absolute;
-    right: 250px;
+    right: 200px;
     bottom: 150px;
     max-width: 255px;
     z-index: 5;
     text-align: right;
     color: white;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    border-right: 1px solid rgb(255, 255, 255, 0.4);
+    padding-right: 50px;
 }
 
 .landing .welcome-title {
@@ -107,4 +109,33 @@
 
 .landing .welcome-btn button:hover {
     background-color: rgba(0, 0, 0, 0.04);
+}
+
+.landing .scroll {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.landing .scroll .text {
+    writing-mode: tb-rl;
+    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    color: white;
+    opacity: 0.6;
+    pointer-events: all;
+}
+
+.landing .scroll .line {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.4;
+    margin-top: 12px;
 }
