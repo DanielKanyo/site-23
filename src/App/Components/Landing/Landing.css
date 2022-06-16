@@ -22,6 +22,7 @@
 .landing .role {
     font-size: 20px;
     color: black;
+    opacity: 0.9;
 }
 
 .landing .social-and-title-container {
@@ -70,7 +71,8 @@
     background-image: url('../../Static/Images/henry-co-mjPs0heWsek-unsplash.jpg');
     background-size: cover;
     opacity: 0.18;
-    z-index: 0;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .landing .welcome-msg {

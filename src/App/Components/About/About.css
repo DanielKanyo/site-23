@@ -32,6 +32,7 @@
     font-family: BasementGrotesque;
     font-size: 60px;
     opacity: 0.15;
+    text-transform: uppercase;
 }
 
 .about .about-text-container > div {

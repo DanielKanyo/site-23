@@ -10,7 +10,7 @@ const About = () => {
             </Parallax>
             <Parallax speed={10}>
                 <div className='about-text-container'>
-                    <div className='about-text-title'>ABOUT</div>
+                    <div className='about-text-title'>About</div>
                     <div>
                         With experience in web development and design,
                         I maintain a healthy balance between functionality and visual impact in all my work.
