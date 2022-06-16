@@ -1,5 +1,6 @@
 .skills {
     padding: 250px 0;
+    overflow: hidden;
 }
 
 .skills .title {
@@ -18,11 +19,20 @@
 }
 
 .skills .skill-category-container {
-    margin-top: 250px;
+    margin-top: 200px;
+    transform: translateZ(0);
+}
+
+.skills .parallax:last-of-type {
+    margin-right: 117px;
 }
 
 .skills .skill-category-container.right-align {
     text-align: right;
+}
+
+.skills .skill-category-list.right-flex {
+    justify-content: flex-end;
 }
 
 .skills .skill-category-container .skill-category-title {
@@ -34,4 +44,36 @@
     opacity: 0.8;
 }
 
+.skills .skill-category-list {
+    font-family: BasementGrotesque;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: -15px;
+    opacity: 0.6;
+    display: flex;
+}
 
+.skills .skill-category-list .skill-element {
+    min-width: fit-content;
+}
+
+.skills .skill-category-list.right-flex .skill-element {
+    margin-left: 25px;
+}
+
+.skills .skill-category-list.left-flex .skill-element {
+    margin-right: 25px;
+}
+
+.skills .skill-category-list .skill-element:first-of-type {
+    margin-left: 0;
+}
+
+.skills .and-more {
+    font-family: BasementGrotesque;
+    font-style: italic;
+    font-size: 20px;
+    opacity: 0.2;
+    margin-top: 5px;
+    color: white;
+}
