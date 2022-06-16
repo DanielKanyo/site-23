@@ -30,11 +30,8 @@
 
 .about .about-text-title {
     font-family: BasementGrotesque;
-    font-size: 40px;
-}
-
-.about .about-text-title span {
-    color: #03e8fc;
+    font-size: 60px;
+    opacity: 0.15;
 }
 
 .about .about-text-container > div {
