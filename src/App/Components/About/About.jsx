@@ -5,10 +5,10 @@ import './About.css';
 const About = () => {
     return (
         <div className='about' name='about'>
-            <Parallax translateY={[-25, 25]}>
+            <Parallax speed={-10}>
                 <div className='profile-img'></div>
             </Parallax>
-            <Parallax translateY={[25, -25]}>
+            <Parallax speed={10}>
                 <div className='about-text'>
                     With experience in web development and design,
                     I maintain a healthy balance between functionality and visual impact in all my work.
