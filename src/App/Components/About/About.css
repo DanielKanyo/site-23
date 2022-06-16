@@ -16,9 +16,9 @@
     opacity: 0.6;
 }
 
-.about .about-text {
+.about .about-text-container {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    margin: 120px 120px;
+    margin: 100px 120px;
     font-size: 30px;
     font-weight: 300;
     color: white;
@@ -26,4 +26,21 @@
     font-style: italic;
     position: relative;
     transform: translateZ(0);
+}
+
+.about .about-text-title {
+    font-family: BasementGrotesque;
+    font-size: 40px;
+}
+
+.about .about-text-title span {
+    color: #03e8fc;
+}
+
+.about .about-text-container > div {
+    margin-bottom: 30px;
+}
+
+.about .about-text-container > div:last-of-type {
+    margin: 0;
 }
