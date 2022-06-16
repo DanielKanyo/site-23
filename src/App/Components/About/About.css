@@ -1,5 +1,5 @@
 .about {
-    padding: 200px 0 0 0;
+    padding: 250px 0 0 0;
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -26,13 +26,6 @@
     font-style: italic;
     position: relative;
     transform: translateZ(0);
-}
-
-.about .about-text-title {
-    font-family: BasementGrotesque;
-    font-size: 60px;
-    opacity: 0.15;
-    text-transform: uppercase;
 }
 
 .about .about-text-container > div {
