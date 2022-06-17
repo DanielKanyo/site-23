@@ -1,5 +1,6 @@
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
+import { scroller } from 'react-scroll';
 import { SOCIAL } from '../../Static/Constants/social';
 
 import './Landing.css';
@@ -43,7 +44,7 @@ const Landing = () => {
                     I hope you enjoy your time here. If you have any questions please click on the button below.
                 </div>
                 <div className='welcome-btn'>
-                    <Button variant='outlined'>Contact me</Button>
+                    <Button variant='outlined' onClick={() => scroller.scrollTo('contact')}>Contact me</Button>
                 </div>
             </div>
             <div className='scroll'>
