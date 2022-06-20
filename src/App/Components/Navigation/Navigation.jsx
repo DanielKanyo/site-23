@@ -5,9 +5,9 @@ import { NAV_ITEMS } from '../../Static/Constants/nav';
 
 import './Navigation.css';
 
-const Navigation = ({ isPageAtTop }) => {
+const Navigation = () => {
     return (
-        <div className={!isPageAtTop ? 'navigation scrolled' : 'navigation'}>
+        <div className='navigation'>
             <div className='title' onClick={() => scroller.scrollTo('landing')}>_dk</div>
             <div>
                 {
