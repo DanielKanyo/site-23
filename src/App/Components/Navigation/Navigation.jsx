@@ -5,20 +5,23 @@ import { NAV_ITEMS } from '../../Static/Constants/nav';
 
 import './Navigation.css';
 
-const Navigation = () => {
+const Navigation = ({ isPageAtTop }) => {
     return (
-        <div className='navigation'>
-            {
-                NAV_ITEMS.map((element) =>
-                    <Button
-                        variant='text'
-                        key={element}
-                        onClick={() => scroller.scrollTo(element)}
-                    >
-                        {element}
-                    </Button>
-                )
-            }
+        <div className={!isPageAtTop ? 'navigation scrolled' : 'navigation'}>
+            <div className='title' onClick={() => scroller.scrollTo('landing')}>_dk</div>
+            <div>
+                {
+                    NAV_ITEMS.map((element) =>
+                        <Button
+                            variant='text'
+                            key={element}
+                            onClick={() => scroller.scrollTo(element)}
+                        >
+                            {element}
+                        </Button>
+                    )
+                }
+            </div>
         </div>
     )
 }

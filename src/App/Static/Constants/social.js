@@ -1,6 +1,7 @@
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 export const SOCIAL = [
     {
@@ -17,5 +18,10 @@ export const SOCIAL = [
         icon: <GitHubIcon fontSize='inherit' />,
         url: 'https://github.com/DanielKanyo',
         label: 'github',
+    },
+    {
+        icon: <TwitterIcon fontSize='inherit' />,
+        url: 'https://twitter.com/DanielKanyo',
+        label: 'twitter',
     },
 ]

@@ -17,26 +17,21 @@ const Landing = () => {
                     FULL STACK | UX
                 </div>
             </div>
-            <div className='social-and-title-container'>
-                <div className='title'>
-                    _dk
-                </div>
-                <div className='social'>
-                    {
-                        SOCIAL.map((s) =>
-                            <IconButton
-                                aria-label={s.label}
-                                size='large'
-                                className='social-icon'
-                                href={s.url}
-                                target='_blank'
-                                key={s.label}
-                            >
-                                {s.icon}
-                            </IconButton>
-                        )
-                    }
-                </div>
+            <div className='social-container'>
+                {
+                    SOCIAL.map((s) =>
+                        <IconButton
+                            aria-label={s.label}
+                            size='large'
+                            className='social-icon'
+                            href={s.url}
+                            target='_blank'
+                            key={s.label}
+                        >
+                            {s.icon}
+                        </IconButton>
+                    )
+                }
             </div>
             <div className='welcome-msg'>
                 <div className='welcome-title'>Welcome Visitor!</div>
