@@ -62,11 +62,12 @@
 }
 
 .contact .content button:disabled {
-    color: grey;
-    border-color: grey;
+    color: white;
+    border-color: white;
     border-radius: 0px;
     margin-top: 10px;
     min-width: 150px;
+    opacity: 0.2;
 }
 
 .contact .content button:hover {
