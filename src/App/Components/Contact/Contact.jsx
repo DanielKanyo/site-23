@@ -1,9 +1,111 @@
+import { useState } from 'react';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import ReCAPTCHA from 'react-google-recaptcha';
+import { styled } from '@mui/material/styles';
+
 import './Contact.css';
 
+const CustomTextField = styled(TextField)({
+    '& label': {
+        color: 'white',
+        opacity: 0.7,
+    },
+    '& label.Mui-focused': {
+        color: 'white',
+        opacity: 0.7,
+    },
+    '& .MuiInput-underline:hover:not(.Mui-disabled):before': {
+        borderBottomColor: 'white',
+        opacity: 0.7,
+    },
+    '& .MuiInput-underline:hover:not(.Mui-disabled):after': {
+        borderBottomColor: 'white',
+        opacity: 0.7,
+    },
+    '& .MuiInput-underline:before': {
+        borderBottomColor: 'white',
+        opacity: 0.7,
+    },
+    '& .MuiInput-underline:after': {
+        borderBottomColor: 'white',
+        opacity: 0.7,
+    },
+});
+
 const Contact = () => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [msg, setMsg] = useState('');
+    const [isBtnAvailable, setIsBtnAvailable] = useState(false);
+
+
+    const onChange = () => {
+        setIsBtnAvailable(true);
+    }
+
+    const handleSendBtnClick = () => {
+        setName('');
+        setEmail('');
+        setMsg('');
+        setIsBtnAvailable(false);
+    }
+
     return (
         <div className='contact'>
-            Contact
+            <div className='title'>
+                contact me
+            </div>
+            <div className='content'>
+                <CustomTextField
+                    className='input'
+                    label='Name'
+                    variant='standard'
+                    placeholder='Please enter your name...'
+                    InputProps={{
+                        style: {
+                            color: 'white'
+                        }
+                    }}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+                <CustomTextField
+                    className='input'
+                    label='E-mail'
+                    variant='standard'
+                    placeholder='Please enter your e-mail address...'
+                    InputProps={{
+                        style: {
+                            color: 'white'
+                        }
+                    }}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+                <CustomTextField
+                    className='input'
+                    label='Message'
+                    multiline
+                    rows={7}
+                    variant='standard'
+                    InputProps={{
+                        style: {
+                            color: 'white'
+                        }
+                    }}
+                    value={msg}
+                    onChange={(e) => setMsg(e.target.value)}
+                />
+                <ReCAPTCHA
+                    className={name && email && msg ? 'reCAPTCHA' : 'reCAPTCHA invisible'}
+                    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                    onChange={onChange}
+                />
+                <div className='button-container'>
+                    <Button variant='outlined' disabled={!isBtnAvailable} onClick={() => handleSendBtnClick()}>Send</Button>
+                </div>
+            </div>
         </div>
     )
 }

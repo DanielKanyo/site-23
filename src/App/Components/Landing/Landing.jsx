@@ -49,7 +49,7 @@ const Landing = () => {
             </div>
             <div className='share-link-container'>
                 <div>
-                    Share this page <br /> with your friends <br /> on Facebook...
+                    Share this site <br /> with your friends <br /> on Facebook...
                 </div>
                 <div>
                     <IconButton
