@@ -54,24 +54,21 @@
 }
 
 .contact .content button:not(:disabled) {
-    color: #03e8fc;
-    border-color: #03e8fc;
+    border-radius: 0px;
+    background-color: #00a5b4;
     border-radius: 0px;
     margin-top: 10px;
-    min-width: 150px;
+    min-width: 120px;
 }
 
 .contact .content button:disabled {
-    color: white;
-    border-color: white;
     border-radius: 0px;
     margin-top: 10px;
-    min-width: 150px;
-    opacity: 0.2;
+    min-width: 120px;
 }
 
 .contact .content button:hover {
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: #008b97;
 }
 
 .contact .content .reCAPTCHA {

@@ -122,7 +122,7 @@ const Contact = () => {
                     onChange={onChange}
                 />
                 <div className='button-container'>
-                    <Button variant='outlined' disabled={!isBtnAvailable} onClick={() => handleSendBtnClick()}>Send</Button>
+                    <Button variant='contained' disabled={!isBtnAvailable} onClick={() => handleSendBtnClick()}>Send</Button>
                 </div>
             </div>
         </div>

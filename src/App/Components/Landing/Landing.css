@@ -92,13 +92,12 @@
 }
 
 .landing .welcome-btn button {
-    color: #03e8fc;
-    border-color: #03e8fc;
     border-radius: 0px;
+    background-color: #00a5b4;
 }
 
 .landing .welcome-btn button:hover {
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: #008b97;
 }
 
 .landing .scroll {

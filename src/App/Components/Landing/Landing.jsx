@@ -39,7 +39,7 @@ const Landing = () => {
                     I hope you enjoy your time here. If you have any questions please click on the button below.
                 </div>
                 <div className='welcome-btn'>
-                    <Button variant='outlined' onClick={() => scroller.scrollTo('contact')}>Contact me</Button>
+                    <Button variant='contained' onClick={() => scroller.scrollTo('contact')}>Contact me</Button>
                 </div>
             </div>
             <div className='scroll'>
