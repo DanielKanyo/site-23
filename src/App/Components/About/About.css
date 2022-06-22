@@ -7,7 +7,7 @@
 }
 
 .about .profile-img {
-    min-width: 300px;
+    width: 300px;
     height: 330px;
     box-shadow: rgba(0, 0, 0, 0.55) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-image: url('../../Static/Images/levi-meir-clancy-h2UcC6lXlJs-unsplash.jpg');
@@ -18,7 +18,7 @@
 
 .about .about-text-container {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    margin: 100px 120px;
+    padding: 100px 120px;
     font-size: 30px;
     font-weight: 300;
     color: white;
@@ -34,4 +34,21 @@
 
 .about .about-text-container > div:last-of-type {
     margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .about .profile-img {
+        width: 300px;
+    }
+
+    .about .about-text-container {
+        padding: 65px 30px 45px 30px;
+        font-size: 24px;
+    }
 }

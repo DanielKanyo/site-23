@@ -24,14 +24,41 @@
     cursor: pointer;
 }
 
-.navigation button {
+.navigation .nav-items button {
     margin: 0 35px;
     color: white;
     opacity: 0.7;
     border-radius: 0px;
 }
 
-.navigation button:hover {
+.navigation .nav-items button:hover {
     background-color: rgba(0, 0, 0, 0.04);
     opacity: 0.7;
+}
+
+.navigation .menu-icon-container button {
+    color: white;
+    opacity: 0.7;
+}
+
+.navigation .menu-icon-container {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .navigation {
+        padding: 15px 25px;
+    }
+
+    .navigation .menu-icon-container {
+        display: block;
+    }
+
+    .navigation .nav-items {
+        display: none;
+    }
+
+    .navigation .title {
+        margin-left: 0;
+    }
 }

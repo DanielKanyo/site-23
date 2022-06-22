@@ -73,7 +73,7 @@
     z-index: 5;
     text-align: right;
     color: white;
-    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 .landing .welcome-title {
@@ -115,7 +115,7 @@
 
 .landing .scroll .text {
     writing-mode: tb-rl;
-    font-family: 'Roboto','Helvetica','Arial',sans-serif;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     color: white;
     opacity: 0.5;
     font-style: italic;
@@ -130,3 +130,28 @@
     margin-top: 12px;
 }
 
+@media screen and (max-width: 1000px) {
+    .landing .social-container {
+        display: none;
+    }
+
+    .landing .name {
+        font-size: 48px;
+    }
+
+    .landing .role {
+        text-align: left;
+        margin-bottom: -70px;
+        margin-right: 0;
+        margin-left: 4px;
+        font-size: 16px;
+    }
+
+    .landing .welcome-msg {
+        display: none;
+    }
+
+    .landing .scroll {
+        padding: 25px 0;
+    }
+}
