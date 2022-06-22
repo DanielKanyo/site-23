@@ -3,6 +3,8 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { styled } from '@mui/material/styles';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../../Firebase/firebase';
 
 import './Contact.css';
 
@@ -40,15 +42,32 @@ const Contact = () => {
     const [isBtnAvailable, setIsBtnAvailable] = useState(false);
 
 
-    const onChange = () => {
-        setIsBtnAvailable(true);
+    const onChange = (token) => {
+        if (token) {
+            setIsBtnAvailable(true);
+        }
     }
 
-    const handleSendBtnClick = () => {
+    const resetFields = () => {
         setName('');
         setEmail('');
         setMsg('');
         setIsBtnAvailable(false);
+    }
+
+    const handleSendBtnClick = () => {
+        try {
+            addDoc(collection(db, 'contactMsg'), {
+                name,
+                email,
+                msg,
+                timestamp: new Date(),
+            });
+        } catch (e) {
+            console.error('Error adding document: ', e);
+        }
+
+        resetFields();
     }
 
     return (
