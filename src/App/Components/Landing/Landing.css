@@ -13,6 +13,8 @@
     color: white;
     opacity: 0.8;
     font-family: BasementGrotesque;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .landing .name {
@@ -20,9 +22,13 @@
 }
 
 .landing .role {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
-    opacity: 0.9;
+    opacity: 0.7;
+    width: 100%;
+    text-align: right;
+    margin-bottom: -20px;
+    margin-right: 4px;
 }
 
 .landing .social-container {
@@ -54,7 +60,7 @@
     top: 0;
     background-image: url('../../Static/Images/henry-co-mjPs0heWsek-unsplash.jpg');
     background-size: cover;
-    opacity: 0.18;
+    opacity: 0.14;
     z-index: -1;
     pointer-events: none;
 }
@@ -113,6 +119,7 @@
     font-family: 'Roboto','Helvetica','Arial',sans-serif;
     color: white;
     opacity: 0.5;
+    font-style: italic;
     pointer-events: all;
 }
 
@@ -122,23 +129,5 @@
     background-color: white;
     opacity: 0.4;
     margin-top: 12px;
-}
-
-.landing .share-link-container {
-    position: absolute;
-    left: 70px;
-    bottom: 45px;
-    font-family: 'Roboto','Helvetica','Arial',sans-serif;
-    color: white;
-    opacity: 0.5;
-    font-style: italic;
-    display: flex;
-    align-items: center;
-}
-
-.landing .share-link-container .share-icon {
-    color: white;
-    opacity: 0.7;
-    margin-left: 20px;
 }
 

@@ -5,10 +5,10 @@ import './About.css';
 const About = () => {
     return (
         <div className='about' name='about'>
-            <Parallax speed={-10}>
+            <Parallax translateY={[-20, 20]}>
                 <div className='profile-img'></div>
             </Parallax>
-            <Parallax speed={10}>
+            <Parallax translateY={[20, -20]}>
                 <div className='about-text-container'>
                     <div>
                         With experience in web development and design,

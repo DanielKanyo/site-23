@@ -73,7 +73,7 @@ const Contact = () => {
     return (
         <div className='contact'>
             <div className='title'>
-                contact me
+                contact
             </div>
             <div className='content'>
                 <CustomTextField

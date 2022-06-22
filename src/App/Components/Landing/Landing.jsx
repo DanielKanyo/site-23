@@ -1,6 +1,5 @@
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
-import ShareIcon from '@mui/icons-material/Share';
 import { scroller } from 'react-scroll';
 import { SOCIAL } from '../../Static/Constants/social';
 
@@ -11,11 +10,11 @@ const Landing = () => {
         <div className='landing'>
             <div className='img'></div>
             <div className='name-and-role-container'>
+                <div className='role'>
+                    front-end developer
+                </div>
                 <div className='name'>
                     danielkanyo
-                </div>
-                <div className='role'>
-                    FULL STACK | UX
                 </div>
             </div>
             <div className='social-container'>
@@ -46,22 +45,6 @@ const Landing = () => {
             <div className='scroll'>
                 <div className='text'>Scroll</div>
                 <div className='line'></div>
-            </div>
-            <div className='share-link-container'>
-                <div>
-                    Share this site <br /> with your friends <br /> on Facebook...
-                </div>
-                <div>
-                    <IconButton
-                        aria-label='share'
-                        size='large'
-                        className='share-icon'
-                        href='https://www.facebook.com/sharer/sharer.php?u=https%3A//danielkanyo.hu/'
-                        target='_blank'
-                    >
-                        <ShareIcon fontSize='inherit' />
-                    </IconButton>
-                </div>
             </div>
         </div>
     );
