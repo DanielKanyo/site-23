@@ -9,6 +9,8 @@ import Footer from './Components/Footer/Footer';
 
 import { SCREEN_SIZE_PARALLAX_LIMIT } from './Static/Constants/constants';
 
+import './App.css';
+
 const App = () => {
     const [width, setWidth] = useState(window.innerWidth);
 

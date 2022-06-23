@@ -10,9 +10,4 @@ html {
 body {
     margin: 0;
     position: relative;
-    background: hsla(0, 0%, 0%, 1);
-    background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 29%, 1) 50%, hsla(0, 0%, 12%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 29%, 1) 50%, hsla(0, 0%, 12%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 29%, 1) 50%, hsla(0, 0%, 12%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#494949", GradientType=1 );
 }
