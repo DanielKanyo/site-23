@@ -34,7 +34,6 @@
 .landing .social-container {
     position: absolute;
     top: 0;
-    border-right: 1px solid transparent;
     padding: 32px 70px;
     height: calc(100vh - 64px);
     display: flex;
@@ -109,8 +108,13 @@
     justify-content: center;
     align-items: center;
     padding: 45px 0;
-    flex-direction: column;
     pointer-events: none;
+}
+
+.landing .scroll > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .landing .scroll .text {
@@ -132,7 +136,14 @@
 
 @media screen and (max-width: 1000px) {
     .landing .social-container {
-        display: none;
+        justify-content: flex-end;
+        padding: 35px 20px;
+        height: calc(100vh - 70px);
+    }
+
+    .landing .social-container .social-icon {
+        margin: 0;
+        font-size: 24px;
     }
 
     .landing .name {
@@ -141,10 +152,10 @@
 
     .landing .role {
         text-align: left;
-        margin-bottom: -70px;
+        margin-bottom: -76px;
         margin-right: 0;
         margin-left: 4px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .landing .welcome-msg {
@@ -152,6 +163,10 @@
     }
 
     .landing .scroll {
-        padding: 25px 0;
+        justify-content: flex-end;
+    }
+
+    .landing .scroll > div {
+        margin-right: 45px;
     }
 }

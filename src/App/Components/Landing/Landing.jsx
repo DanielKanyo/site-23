@@ -43,8 +43,10 @@ const Landing = () => {
                 </div>
             </div>
             <div className='scroll'>
-                <div className='text'>Scroll</div>
-                <div className='line'></div>
+                <div>
+                    <div className='text'>Scroll</div>
+                    <div className='line'></div>
+                </div>
             </div>
         </div>
     );

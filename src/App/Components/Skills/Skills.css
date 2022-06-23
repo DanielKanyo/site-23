@@ -93,7 +93,7 @@
     }
 
     .skills .skill-category-container .skill-category-title {
-        font-size: 48px;
+        font-size: 46px;
     }
 
     .skills .skill-category-list {
@@ -108,5 +108,15 @@
 
     .skills .parallax:last-of-type {
         margin-right: 0;
+    }
+
+    .skills .skill-category-list.right-flex .skill-element {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .skills .skill-category-list.left-flex .skill-element {
+        margin-right: 0;
+        margin-top: 5px;
     }
 }
