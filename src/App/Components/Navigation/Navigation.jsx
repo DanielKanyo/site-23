@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import { scroller } from 'react-scroll';
 
 import { NAV_ITEMS } from '../../Static/Constants/nav';
@@ -8,6 +11,13 @@ import { NAV_ITEMS } from '../../Static/Constants/nav';
 import './Navigation.css';
 
 const Navigation = () => {
+    const [drawerOpened, setDrawerOpened] = useState(false);
+
+    const handleNavItemClickedInDrawer = (element) => {
+        scroller.scrollTo(element);
+        setDrawerOpened(false);
+    }
+
     return (
         <div className='navigation'>
             <div className='title' onClick={() => scroller.scrollTo('landing')}>_dk</div>
@@ -25,10 +35,42 @@ const Navigation = () => {
                 }
             </div>
             <div className='menu-icon-container'>
-                <IconButton aria-label='menu'>
+                <IconButton aria-label='menu' onClick={() => setDrawerOpened(true)}>
                     <MenuIcon />
                 </IconButton>
             </div>
+            <SwipeableDrawer
+                anchor='bottom'
+                sx={{
+                    '& .MuiDrawer-paper': {
+                        background: 'transparent',
+                    },
+                }}
+                open={drawerOpened}
+                onClose={() => setDrawerOpened(false)}
+                onOpen={() => setDrawerOpened(true)}
+            >
+                <div className='drawer-content'>
+                    <div className='close-icon-container'>
+                        <IconButton aria-label='close' size='large' onClick={() => setDrawerOpened(false)}>
+                            <CloseIcon />
+                        </IconButton>
+                    </div>
+                    <div className='nav-items-in-drawer'>
+                        {
+                            NAV_ITEMS.map((element) =>
+                                <Button
+                                    variant='text'
+                                    key={element}
+                                    onClick={() => handleNavItemClickedInDrawer(element)}
+                                >
+                                    {element}
+                                </Button>
+                            )
+                        }
+                    </div>
+                </div>
+            </SwipeableDrawer>
         </div>
     )
 }
