@@ -23,7 +23,7 @@
 
 .landing .role {
     font-size: 18px;
-    color: #00becf;
+    color: #00a4b3;
     width: 100%;
     text-align: right;
     margin-bottom: -20px;
@@ -91,7 +91,7 @@
 
 .landing .welcome-btn button {
     border-radius: 0px;
-    background-color: #00becf;
+    background-color: #00a4b3;
 }
 
 .landing .welcome-btn button:hover {

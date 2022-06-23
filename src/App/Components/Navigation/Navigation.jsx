@@ -18,21 +18,23 @@ const Navigation = () => {
         setDrawerOpened(false);
     }
 
+    const items = () => (
+        NAV_ITEMS.map((element) =>
+            <Button
+                variant='text'
+                key={element}
+                onClick={() => handleNavItemClickedInDrawer(element)}
+            >
+                {element}
+            </Button>
+        )
+    );
+
     return (
         <div className='navigation'>
             <div className='title' onClick={() => scroller.scrollTo('landing')}>_dk</div>
             <div className='nav-items'>
-                {
-                    NAV_ITEMS.map((element) =>
-                        <Button
-                            variant='text'
-                            key={element}
-                            onClick={() => scroller.scrollTo(element)}
-                        >
-                            {element}
-                        </Button>
-                    )
-                }
+                {items()}
             </div>
             <div className='menu-icon-container'>
                 <IconButton aria-label='menu' onClick={() => setDrawerOpened(true)}>
@@ -57,17 +59,7 @@ const Navigation = () => {
                         </IconButton>
                     </div>
                     <div className='nav-items-in-drawer'>
-                        {
-                            NAV_ITEMS.map((element) =>
-                                <Button
-                                    variant='text'
-                                    key={element}
-                                    onClick={() => handleNavItemClickedInDrawer(element)}
-                                >
-                                    {element}
-                                </Button>
-                            )
-                        }
+                        {items()}
                     </div>
                 </div>
             </SwipeableDrawer>
