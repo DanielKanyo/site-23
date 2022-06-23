@@ -108,6 +108,7 @@ const Contact = () => {
                     multiline
                     rows={7}
                     variant='standard'
+                    placeholder='Share your thoughts with me...'
                     InputProps={{
                         style: {
                             color: 'white'

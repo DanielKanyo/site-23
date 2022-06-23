@@ -11,7 +11,7 @@ const Landing = () => {
             <div className='img'></div>
             <div className='name-and-role-container'>
                 <div className='role'>
-                    front-end developer
+                    full-stack developer
                 </div>
                 <div className='name'>
                     danielkanyo
