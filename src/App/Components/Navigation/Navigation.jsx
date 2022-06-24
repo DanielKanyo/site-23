@@ -53,6 +53,7 @@ const Navigation = () => {
                 onOpen={() => setDrawerOpened(true)}
             >
                 <div className='drawer-content'>
+                    <div className='rect'></div>
                     <div className='close-icon-container'>
                         <IconButton aria-label='close' size='large' onClick={() => setDrawerOpened(false)}>
                             <CloseIcon />

@@ -49,7 +49,16 @@
     height: 100vh;
     position: relative;
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.drawer-content .rect {
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.20);
 }
 
 .drawer-content .close-icon-container {
@@ -65,13 +74,13 @@
 .drawer-content .nav-items-in-drawer {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .drawer-content .nav-items-in-drawer button {
     color: white;
     opacity: 0.7;
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: 30px;
     font-weight: 300;
 }
