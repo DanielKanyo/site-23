@@ -28,12 +28,14 @@
     text-align: right;
     margin-bottom: -20px;
     margin-right: 4px;
+    z-index: 10;
+    opacity: 0.6;
 }
 
 .landing .social-container {
     position: absolute;
     top: 0;
-    padding: 32px 70px;
+    padding: 32px 55px;
     height: calc(100vh - 64px);
     display: flex;
     justify-content: center;
@@ -61,6 +63,21 @@
     opacity: 0.14;
     z-index: 0;
     pointer-events: none;
+}
+
+.landing .img-parallax {
+    background-image: url('../../Static/Images/augustine-wong-AMi8QWJ5Dec-unsplash.jpg');
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    background-position: right;
+    background-size: cover;
+    opacity: 0.14;
+    z-index: 0;
+    pointer-events: none;
+    filter: grayscale(100%);
 }
 
 .landing .welcome-msg {
@@ -167,5 +184,13 @@
 
     .landing .scroll > div {
         margin-right: 45px;
+    }
+
+    .landing .img-parallax {
+        right: 0;
+        left: unset;
+        top: 0;
+        width: 60%;
+        height: 75vh;
     }
 }

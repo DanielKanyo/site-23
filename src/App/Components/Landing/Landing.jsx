@@ -1,5 +1,6 @@
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
+import { Parallax } from 'react-scroll-parallax';
 import { scroller } from 'react-scroll';
 import { SOCIAL } from '../../Static/Constants/social';
 
@@ -9,6 +10,7 @@ const Landing = () => {
     return (
         <div className='landing'>
             <div className='img'></div>
+            <Parallax translateY={[40, -40]} className='img-parallax'></Parallax>
             <div className='name-and-role-container'>
                 <div className='role'>
                     full-stack developer

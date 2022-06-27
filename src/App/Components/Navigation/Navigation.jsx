@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import MenuIcon from '@mui/icons-material/Menu';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import CloseIcon from '@mui/icons-material/Close';
 import { scroller } from 'react-scroll';
 
@@ -55,6 +56,9 @@ const Navigation = () => {
                 <div className='drawer-content'>
                     <div className='rect'></div>
                     <div className='close-icon-container'>
+                        <IconButton aria-label='top' className='arrow-icon' onClick={() => scroller.scrollTo('landing')}>
+                            <ArrowUpwardIcon fontSize='inherit' />
+                        </IconButton>
                         <IconButton aria-label='close' size='large' onClick={() => setDrawerOpened(false)}>
                             <CloseIcon />
                         </IconButton>

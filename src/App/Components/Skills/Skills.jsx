@@ -1,4 +1,3 @@
-
 import { Parallax } from 'react-scroll-parallax';
 import { SKILLS } from '../../Static/Constants/skills';
 
