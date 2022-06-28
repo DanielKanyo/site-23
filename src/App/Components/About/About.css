@@ -12,10 +12,11 @@
     top: -40px;
     width: 500px;
     height: 500px;
-    background-image: url('../../Static/Images/augustine-wong-T0BYurbDK_M-unsplash.jpg');
+    background-image: url('../../Static/Images/rupixen-com-zWe0UhHdi60-unsplash.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.15;
+    filter: grayscale(100%);
 }
 
 .about .about-text-container {
