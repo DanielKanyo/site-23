@@ -14,7 +14,7 @@ export const SKILLS = [
     {
         stack: 'Other',
         translateX: ['170px', '0px'],
-        skills: ['UX', 'Linux', 'Googling', 'Precision', 'Creativity'],
+        skills: ['Precision', 'UX', 'Linux', 'Creativity', 'Googling'],
         rightAligned: true,
     }
 ]

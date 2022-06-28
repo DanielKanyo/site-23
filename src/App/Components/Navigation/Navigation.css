@@ -58,7 +58,7 @@
     left: calc(50% - 50px);
     width: 100px;
     height: 3px;
-    background-color: rgba(255, 255, 255, 0.20);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .drawer-content .close-icon-container {

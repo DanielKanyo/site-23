@@ -21,7 +21,7 @@
 
 .about .about-text-container {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    padding: 100px 220px;
+    padding: 100px 265px;
     font-size: 30px;
     font-weight: 300;
     color: white;
@@ -50,10 +50,11 @@
         width: 350px;
         height: 500px;
         right: 20px;
+        background-position: left;
     }
 
     .about .about-text-container {
-        padding: 65px 30px 45px 30px;
+        padding: 65px 35px 45px 35px;
         font-size: 24px;
     }
 }
