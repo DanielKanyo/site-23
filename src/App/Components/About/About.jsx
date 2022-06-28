@@ -2,13 +2,13 @@ import { Parallax } from 'react-scroll-parallax';
 
 import './About.css';
 
-const About = ({ isMobile }) => {
+const About = () => {
     return (
         <div className='about' name='about'>
-            <Parallax translateY={[-20, 20]} disabled={isMobile}>
-                <div className='profile-img'></div>
+            <Parallax translateY={[-18, 18]}>
+                <div className='img'></div>
             </Parallax>
-            <Parallax translateY={[20, -20]} disabled={isMobile}>
+            <Parallax translateY={[20, -20]}>
                 <div className='about-text-container'>
                     <div>
                         With experience in web development and design,

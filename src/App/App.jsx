@@ -32,7 +32,7 @@ const App = () => {
         <div className='app'>
             <Navigation />
             <Landing />
-            <About isMobile={isMobile} />
+            <About />
             <Skills isMobile={isMobile} />
             <Contact />
             <Footer />
