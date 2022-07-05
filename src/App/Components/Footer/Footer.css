@@ -7,7 +7,6 @@
     padding-bottom: 30px;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     color: white;
-    opacity: 0.5;
     font-style: italic;
 }
 
@@ -24,6 +23,20 @@
 
 .footer > div:last-of-type {
     justify-content: flex-end;
+}
+
+.footer button,
+.footer a {
+    opacity: 0.4;
+}
+
+.footer button:hover,
+.footer a:hover {
+    opacity: 1;
+}
+
+.footer .copyright-txt {
+    opacity: 0.4;
 }
 
 .footer .social-icon,

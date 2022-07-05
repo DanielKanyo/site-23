@@ -25,7 +25,8 @@
 }
 
 .navigation .nav-items button {
-    margin: 0 35px;
+    margin: 0 26px;
+    padding: 10px 20px;
     color: white;
     opacity: 0.7;
     border-radius: 0px;
@@ -33,7 +34,7 @@
 
 .navigation .nav-items button:hover {
     background-color: rgba(0, 0, 0, 0.04);
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .navigation .menu-icon-container button {
