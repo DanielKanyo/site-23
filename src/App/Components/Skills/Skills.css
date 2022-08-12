@@ -6,11 +6,9 @@
 .skills .title {
     width: 100%;
     text-align: center;
-    font-family: BasementGrotesque;
-    font-size: 60px;
+    font-family: font_5by7;
+    font-size: 100px;
     opacity: 0.2;
-    text-transform: uppercase;
-    font-style: italic;
 }
 
 .skills .content {

@@ -6,7 +6,7 @@ import './Skills.css';
 const Skills = ({ isMobile }) => {
     return (
         <div className='skills'>
-            <div className='title'>Skills</div>
+            <div className='title'>skills</div>
             <div className='content'>
                 {
                     SKILLS.map((stack) => (

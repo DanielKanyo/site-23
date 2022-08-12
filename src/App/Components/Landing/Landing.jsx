@@ -13,7 +13,7 @@ const Landing = () => {
             <Parallax translateY={[40, -40]} className='img-parallax'></Parallax>
             <div className='name-and-role-container'>
                 <div className='role'>
-                    full-stack developer
+                    dev
                 </div>
                 <div className='name'>
                     danielkanyo
@@ -36,7 +36,7 @@ const Landing = () => {
                 }
             </div>
             <div className='welcome-msg'>
-                <div className='welcome-title'>Welcome Visitor!</div>
+                <div className='welcome-title'>Welcome Visitor</div>
                 <div className='welcome-text'>
                     I hope you enjoy your time here. If you have any questions please click on the button below.
                 </div>
