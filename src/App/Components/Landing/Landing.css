@@ -114,6 +114,7 @@
     background-color: #00a4b3;
     font-family: 'Space Mono', monospace;
     font-size: 14px;
+    text-transform: lowercase;
 }
 
 .landing .welcome-btn button:hover {

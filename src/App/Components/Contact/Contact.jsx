@@ -78,9 +78,9 @@ const Contact = () => {
             <div className='content'>
                 <CustomTextField
                     className='input'
-                    label='Name'
+                    label='name'
                     variant='standard'
-                    placeholder='Enter your name...'
+                    placeholder='enter your name...'
                     InputProps={{
                         style: {
                             color: 'white'
@@ -91,9 +91,9 @@ const Contact = () => {
                 />
                 <CustomTextField
                     className='input'
-                    label='E-mail'
+                    label='e-mail'
                     variant='standard'
-                    placeholder='Enter your e-mail address...'
+                    placeholder='enter your e-mail address...'
                     InputProps={{
                         style: {
                             color: 'white'
@@ -104,11 +104,11 @@ const Contact = () => {
                 />
                 <CustomTextField
                     className='input'
-                    label='Message'
+                    label='message'
                     multiline
                     rows={7}
                     variant='standard'
-                    placeholder='Share your thoughts with me...'
+                    placeholder='share your thoughts with me...'
                     InputProps={{
                         style: {
                             color: 'white'

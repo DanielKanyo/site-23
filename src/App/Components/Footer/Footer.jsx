@@ -26,7 +26,7 @@ const Footer = () => {
                 }
             </div>
             <div className='copyright-txt'>
-                Copyright © {new Date().getFullYear()}
+                copyright © {new Date().getFullYear()}
             </div>
             <div>
                 <IconButton
