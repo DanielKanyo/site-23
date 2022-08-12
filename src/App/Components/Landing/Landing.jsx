@@ -46,7 +46,7 @@ const Landing = () => {
             </div>
             <div className='scroll'>
                 <div>
-                    <div className='text'>Scroll</div>
+                    <div className='text'>scroll</div>
                     <div className='line'></div>
                 </div>
             </div>
