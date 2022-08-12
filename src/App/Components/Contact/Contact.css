@@ -31,6 +31,12 @@
     color: white;
 }
 
+.contact .content input,
+.contact .content textarea,
+.contact .content label {
+    font-family: 'Space Mono', monospace;
+}
+
 .contact .content input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
     opacity: 0.2;
@@ -68,8 +74,8 @@
 }
 
 .contact .content button {
-    font-family: font_5by7;
-    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
 }
 
 .contact .content button:not(:disabled) {
@@ -109,6 +115,6 @@
     }
 
     .contact .title {
-        font-size: 40px;
+        font-size: 60px;
     }
 }

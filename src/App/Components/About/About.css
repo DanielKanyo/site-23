@@ -20,15 +20,14 @@
 }
 
 .about .about-text-container {
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Space Mono', monospace;
     padding: 100px 265px;
     font-size: 30px;
-    font-weight: 300;
     color: white;
     opacity: 0.9;
-    font-style: italic;
     position: relative;
     transform: translateZ(0);
+    line-height: 32px;
 }
 
 .about .about-text-container > div {

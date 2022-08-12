@@ -27,7 +27,7 @@
     color: black;
     width: 100%;
     text-align: right;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     margin-left: 85px;
     z-index: 10;
     opacity: 0.6;
@@ -93,14 +93,15 @@
 }
 
 .landing .welcome-title {
-    font-size: 22px;
+    font-size: 23px;
+    opacity: 0.8;
 }
 
 .landing .welcome-text {
     opacity: 0.5;
-    font-style: italic;
     margin: 28px 0;
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Space Mono', monospace;
+    line-height: 18px;
 }
 
 .landing .welcome-btn {
@@ -111,8 +112,8 @@
 .landing .welcome-btn button {
     border-radius: 0px;
     background-color: #00a4b3;
-    font-family: font_5by7;
-    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
 }
 
 .landing .welcome-btn button:hover {
@@ -139,11 +140,11 @@
 
 .landing .scroll .text {
     writing-mode: tb-rl;
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Space Mono', monospace;
     color: white;
     opacity: 0.5;
-    font-style: italic;
     pointer-events: all;
+    font-size: 13px;
 }
 
 .landing .scroll .line {

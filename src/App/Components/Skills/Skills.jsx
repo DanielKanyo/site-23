@@ -22,9 +22,6 @@ const Skills = ({ isMobile }) => {
                                         ))
                                     }
                                 </div>
-                                <div className='and-more'>
-                                    and more...
-                                </div>
                             </div>
                         </Parallax>
                     ))
