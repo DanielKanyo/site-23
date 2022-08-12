@@ -36,9 +36,9 @@ const Landing = () => {
                 }
             </div>
             <div className='welcome-msg'>
-                <div className='welcome-title'>Welcome Visitor</div>
+                <div className='welcome-title'>welcome visitor</div>
                 <div className='welcome-text'>
-                    I hope you enjoy your time here. If you have any questions please click on the button below.
+                    I hope you enjoy your time here. If you have any questions please click on the button below
                 </div>
                 <div className='welcome-btn'>
                     <Button variant='contained' onClick={() => scroller.scrollTo('contact')}>Contact me</Button>

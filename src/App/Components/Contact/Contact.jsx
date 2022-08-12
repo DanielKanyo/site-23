@@ -80,7 +80,7 @@ const Contact = () => {
                     className='input'
                     label='Name'
                     variant='standard'
-                    placeholder='Please enter your name...'
+                    placeholder='Enter your name...'
                     InputProps={{
                         style: {
                             color: 'white'
@@ -93,7 +93,7 @@ const Contact = () => {
                     className='input'
                     label='E-mail'
                     variant='standard'
-                    placeholder='Please enter your e-mail address...'
+                    placeholder='Enter your e-mail address...'
                     InputProps={{
                         style: {
                             color: 'white'

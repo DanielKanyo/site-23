@@ -34,6 +34,7 @@
     border-radius: 0px;
     font-family: 'Space Mono', monospace;
     font-size: 14px;
+    text-transform: lowercase;
 }
 
 .navigation .nav-items button:hover {

@@ -89,11 +89,11 @@
     z-index: 5;
     text-align: right;
     color: white;
-    font-family: font_5by7;
+    font-family: 'Space Mono', monospace;
 }
 
 .landing .welcome-title {
-    font-size: 23px;
+    font-size: 22px;
     opacity: 0.8;
 }
 
