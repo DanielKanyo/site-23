@@ -53,19 +53,6 @@
     opacity: 1;
 }
 
-.landing .img {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-image: url('../../Static/Images/henry-co-mjPs0heWsek-unsplash.jpg');
-    background-size: cover;
-    opacity: 0.14;
-    z-index: 0;
-    pointer-events: none;
-}
-
 .landing .img-parallax {
     background-image: url('../../Static/Images/phil-desforges-KP7p0-DRGbg-unsplash.jpg');
     width: 30%;

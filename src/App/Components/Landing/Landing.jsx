@@ -9,7 +9,6 @@ import './Landing.css';
 const Landing = () => {
     return (
         <div className='landing'>
-            <div className='img'></div>
             <Parallax translateY={[40, -40]} className='img-parallax'></Parallax>
             <div className='name-and-role-container'>
                 <div className='role'>

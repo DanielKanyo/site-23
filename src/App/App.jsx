@@ -30,6 +30,7 @@ const App = () => {
 
     return (
         <div className='app'>
+            <div className='bg-img'></div>
             <Navigation />
             <Landing />
             <About />
