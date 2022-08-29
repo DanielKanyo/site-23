@@ -35,7 +35,7 @@
 
 .skills .skill-category-container .skill-category-title {
     font-size: 130px;
-    font-family: 'Space Mono', monospace;
+    font-family: font_5by7;
     color: white;
     text-transform: lowercase;
     opacity: 0.8;
@@ -47,7 +47,7 @@
     font-size: 26px;
     opacity: 0.6;
     display: flex;
-    margin-top: -22px;
+    margin-top: 14px;
     text-transform: lowercase;
 }
 
@@ -82,12 +82,12 @@
     }
 
     .skills .skill-category-container .skill-category-title {
-        font-size: 56px;
+        font-size: 66px;
     }
 
     .skills .skill-category-list {
         display: block;
-        margin-top: 0;
+        margin-top: 10px;
         font-size: 26px;
     }
 
