@@ -23,14 +23,14 @@
 }
 
 .landing .role {
-    font-size: 30px;
+    font-size: 34px;
     color: black;
     width: 100%;
-    text-align: right;
-    margin-bottom: -20px;
-    margin-left: 85px;
+    text-align: center;
     z-index: 10;
     opacity: 0.6;
+    letter-spacing: 70px;
+    margin-left: 70px;
 }
 
 .landing .social-container {
@@ -160,8 +160,8 @@
     }
 
     .landing .role {
-        margin-bottom: 0px;
-        margin-left: 0px;
+        letter-spacing: 25px;
+        margin-left: 25px;
         font-size: 18px;
     }
 

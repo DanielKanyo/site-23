@@ -11,11 +11,11 @@ const Landing = () => {
         <div className='landing'>
             <Parallax translateY={[40, -40]} className='img-parallax'></Parallax>
             <div className='name-and-role-container'>
-                <div className='role'>
-                    dev
-                </div>
                 <div className='name'>
                     danielkanyo
+                </div>
+                <div className='role'>
+                    developer
                 </div>
             </div>
             <div className='social-container'>
