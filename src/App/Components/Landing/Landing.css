@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .landing .name-and-role-container {
@@ -32,6 +33,7 @@
     letter-spacing: 79px;
     margin-left: 79px;
     font-family: 'Space Mono', monospace;
+    margin-top: 10px;
 }
 
 .landing .social-container {
