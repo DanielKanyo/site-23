@@ -32,7 +32,7 @@
     opacity: 0.6;
     letter-spacing: 79px;
     margin-left: 79px;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     margin-top: 10px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .landing .img-parallax {
-    background-image: url('../../Static/Images/phil-desforges-KP7p0-DRGbg-unsplash.jpg');
+    background-image: url("../../Static/Images/phil-desforges-KP7p0-DRGbg-unsplash.jpg");
     width: 30%;
     height: 80vh;
     position: absolute;
@@ -79,7 +79,7 @@
     z-index: 5;
     text-align: right;
     color: white;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
 }
 
 .landing .welcome-title {
@@ -90,7 +90,7 @@
 .landing .welcome-text {
     opacity: 0.5;
     margin: 28px 0;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     line-height: 18px;
 }
 
@@ -101,14 +101,28 @@
 
 .landing .welcome-btn button {
     border-radius: 0px;
-    background-color: #00a4b3;
-    font-family: 'Space Mono', monospace;
+    background-image: linear-gradient(
+        45deg,
+        hsl(192deg 95% 50%) 0%,
+        hsl(193deg 100% 48%) 11%,
+        hsl(194deg 100% 47%) 22%,
+        hsl(195deg 100% 46%) 33%,
+        hsl(197deg 100% 45%) 44%,
+        hsl(198deg 100% 44%) 56%,
+        hsl(199deg 100% 43%) 67%,
+        hsl(200deg 100% 42%) 78%,
+        hsl(202deg 100% 41%) 89%,
+        hsl(204deg 91% 41%) 100%
+    );
+    font-family: "Space Mono", monospace;
     font-size: 14px;
     text-transform: lowercase;
+    transition: filter 250ms;
 }
 
 .landing .welcome-btn button:hover {
-    background-color: #008b97;
+    filter: brightness(90%);
+    transition: filter 250ms;
 }
 
 .landing .scroll {
@@ -131,7 +145,7 @@
 
 .landing .scroll .text {
     writing-mode: tb-rl;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     color: white;
     opacity: 0.5;
     pointer-events: all;
